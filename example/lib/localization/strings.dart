@@ -2,7 +2,7 @@
 import 'dart:ui';
 
 import 'package:easy_localization/easy_localization.dart';
-import 'package:easy_localization_generator/easy_localization_generator.dart';
+import 'package:easy_localization_generator_plus/easy_localization_generator_plus.dart';
 
 part 'strings.g.dart';
 
@@ -14,15 +14,6 @@ part 'strings.g.dart';
   version: 2,
   outDir: 'assets/langs',
   outName: 'langs.csv',
-  preservedKeywords: [
-    'few',
-    'many',
-    'one',
-    'other',
-    'two',
-    'zero',
-    'male',
-    'female',
-  ],
+  preservedKeywords: ['few', 'many', 'one', 'other', 'two', 'zero', 'male', 'female'],
 )
 class _Strings {}
